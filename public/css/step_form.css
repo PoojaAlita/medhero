@@ -1,0 +1,206 @@
+/*
+ * Author : kishan
+ * Date : 3/05/22
+ * Added Step form css
+ */
+/* * {
+    box-sizing: border-box;
+}
+
+input {
+    padding: 10px;
+    width: 100%;
+    font-size: 17px;
+    font-family: Raleway;
+    border: 1px solid #aaaaaa;
+} */
+
+body {
+    margin: 0;
+    font-family: "Josefin Sans";
+    line-height: 1.5;
+}
+/* Mark input boxes that gets an error on validation: */
+.invalid {
+    background-color: #ffdddd !important;
+}
+
+/* Hide all steps by default: */
+.tab {
+    display: none;
+}
+
+/* button {
+    background-color: #04aa6d;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 17px;
+    font-family: Raleway;
+    cursor: pointer;
+} */
+
+/* button:hover {
+    opacity: 0.8;
+} */
+
+/* Make circles that indicate the steps of the form: */
+/* .step {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbbbbb;
+    border: none;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.5;
+} */
+
+/* .step.active {
+    opacity: 1;
+} */
+
+/* Mark the steps that are finished and valid: */
+/* .step.finish {
+    background-color: #04aa6d;
+} */
+
+/*
+ * Author : kishan
+ * Date : 3/05/22
+ * End
+ */
+
+.tab-wrapper {
+    padding: 50px 0;
+    background: #f4f4f4;
+}
+
+.form-sign-wrapper {
+}
+
+.form-sign-wrapper h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 64px;
+    text-align: center;
+    letter-spacing: -2px;
+    text-transform: uppercase;
+    color: #333333;
+    margin-bottom: 40px;
+}
+
+p.p-require {
+    text-align: center;
+}
+.frm-details {
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+.div-pre {
+    margin-top: 10px;
+}
+.div-pre img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.form-control.fd {
+    min-height: initial;
+    padding-left: 18px;
+}
+.cv-pic img {
+    width: 100%;
+    min-height: 200px;
+    max-height: 200px;
+}
+
+.prev-next-btn {
+    text-align: center;
+    margin-top: 30px;
+}
+
+button#nextBtn {
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    background: #002148;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    border-radius: 6px;
+    transition: ease-in-out 0.5s;
+    line-height: normal;
+    width: auto;
+    color: #fff;
+    border-color: #002148;
+}
+
+button#prevBtn {
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    background: #569ccc;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    border-radius: 6px;
+    transition: ease-in-out 0.5s;
+    line-height: normal;
+    width: auto;
+    color: #fff;
+    border-color: #569ccc;
+}
+
+button#skipBtn {
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    background: #acb8c1;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    border-radius: 6px;
+    transition: ease-in-out 0.5s;
+    line-height: normal;
+    width: auto;
+    color: #fff;
+    border-color: #acb8c1;
+}
+
+p.p-require {
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto 5px;
+    color: #333;
+}
+.frm-grp.form-check label.form-check-label {
+    margin-left: 10px;
+    margin-bottom: 0;
+    position: relative;
+    top: 2px;
+}
+
+.frm-grp .select2-container .select2-selection--single {
+    min-height: 40px;
+    border: 1px solid #ddd;
+}

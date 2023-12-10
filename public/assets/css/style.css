@@ -1,0 +1,420 @@
+.col-md-9.googel-map {
+    margin-left: 162px;
+    margin-top: 12px;
+}
+
+.search-btn {
+    width: 100px;
+}
+
+.search_result {
+    height: auto;
+    max-width: 900px;
+    margin: 0!important;
+    border-radius: 20px;
+    display: none;
+}
+
+.row.search_main {
+    margin: auto;
+    max-width: 900px;
+}
+
+.preview_thumb {
+    width: 100px;
+    margin: 3px;
+}
+
+.col-md-6.grid-margin.stretch-card {
+    margin-left: 347px;
+    margin-top: 37px;
+}
+
+div#loader {
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 999999;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.loader-background {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999999;
+    background: rgb(0 0 0 / 38%);
+}
+
+.job-card {
+    margin-left: 269px;
+    margin-bottom: 14px;
+}
+
+.btn.search-btn.btn-primary.connect {
+    width: 183px;
+}
+
+.pac-container.pac-logo {
+    z-index: 9999;
+}
+
+h6.accept_status {
+    margin-left: -216px;
+}
+
+h6.accept_status.text-green-400 {
+    color: lightgreen;
+}
+
+h6.accept_status.text-red-700 {
+    color: red;
+}
+
+h6.text-reject.text-red-600 {
+    margin-left: -40px;
+    margin-top: 3px;
+}
+
+h3.pl-3.pt-1.user_name {
+    font-size: 14px;
+}
+
+.name_link img.rounded-circle {
+    height: 50px;
+}
+
+h6.active_status.text-red-700 {
+    /* margin-left: -148px; */
+    color: red;
+}
+
+h6.active_status {
+    margin-left: -148px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: #444;
+    line-height: 13px !important;
+}
+
+.col-md-11.job_language_col {
+    margin-left: -181px;
+}
+
+img#thumb_image {
+    margin-bottom: 4px;
+    width: 184px;
+}
+
+.hospital-profile-top-banner {
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+.hospital-profile-top-banner {
+    min-height: initial;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #f3f6f8;
+    background-position: center;
+    background-size: cover;
+}
+
+h2.hospital_name {
+    font-size: 20px;
+    color: black;
+    font-style: inherit;
+    margin-left: -13px;
+    margin-bottom: 59px;
+}
+
+.hospital-white {
+    background: #fff;
+    padding: 36px;
+}
+
+p.hospital-address {
+    margin-top: -53px;
+    margin-bottom: 2rem;
+    margin-left: -10px;
+}
+
+.row.hospital-menu {
+    margin-bottom: -28px;
+}
+
+a.menu-hospital {
+    color: black;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.imgs-grid-modal .modal-inner .modal-image img {
+    display: inline;
+}
+
+.imgs-grid-modal .modal-inner .modal-control .arrow {
+    background-image: url(../js/img/imgs-grid-icons.png) !important;
+}
+
+.imgs-grid-modal .modal-close {
+    background-image: url(../js/img/imgs-grid-icons.png) !important;
+}
+
+.p-profile-about {
+    margin-right: 242px !important;
+}
+
+.hospital_cover_image {
+    border: 1px solid #fff;
+}
+
+a.menu-hospital.current-job {
+    margin-left: -18px;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.btn.remove {
+    background-color: #fd0d3c;
+    ;
+    color: #ffff;
+    border-color: #fd0d3c;
+}
+
+.accept_remove_btn {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: auto;
+}
+
+
+/* .btn-wrpper-remove .h_wpr,
+.accept {
+    position: absolute;
+    bottom: 15px;
+    width: 100%;
+    max-width: 190px;
+} */
+
+
+/* .btn.remove.remove-color.hospital__request_remove {
+    width: 100%;
+    max-width: 190px;
+    position: absolute;
+    bottom: 15px;
+} */
+
+.selected {
+    color: #56CCF2;
+}
+
+.active {
+    background-color: #56CCF2 !important;
+}
+
+.accept_remove_btn .btn.accept {
+    background-color: #0d6efd;
+    color: #ffff;
+    border-color: #0d6efd;
+    width: 100%;
+    max-width: 50%;
+}
+
+.accept_remove_btn .accept_btn {
+    max-width: 20% !important;
+}
+
+.accept_remove_btn .btn.remove-color {
+    background-color: #e0051c;
+    color: #ffff;
+    border-color: #e0021e;
+    width: 100%;
+    max-width: 50%;
+}
+
+#heart {
+    color: grey;
+    font-size: 32px;
+}
+
+#heart.red {
+    color: red;
+}
+
+div {
+    user-select: none;
+}
+
+.fa-star.star.active_review {
+    color: #1100ff !important;
+}
+
+.fa-star.active_like {
+    color: #ffd700 !important;
+}
+
+.like-heart {
+    margin-left: 27.5px;
+}
+
+.col-md-8.hospital-past-job-menu.jobmenubutton {
+    margin-bottom: 8px;
+}
+
+img.cover-image-size {
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+.hospital__wpr .hospital__btn {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    max-width: 50%;
+}
+
+.hospital__request_remove .hospital__btn {
+    bottom: 10px;
+    width: 100%;
+    max-width: 190px;
+}
+
+.btn.accept.btn_accept_d {
+    background-color: #1a6ee1;
+    color: white;
+    width: 100%;
+    margin: 1px 0 1px 0;
+}
+
+.btn.remove.btn_remove_d.remove-color {
+    background-color: #fd0d3c;
+    color: #ffff;
+    border-color: #fd0d3c;
+    width: 100%;
+}
+
+.card {
+    min-height: 250px
+}
+
+.profile-l .btn-primary {
+    width: 100%;
+    max-width: 180px;
+    margin: 10px 0
+}
+
+
+/* av */
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&display=swap');
+
+/* start: Global */
+
+
+/* end: Global */
+
+
+/* start: Avatar */
+
+.avatar-group {
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.avatar {
+    position: relative;
+    transition: .2s;
+    display: flex;
+    align-items: center;
+}
+
+.avatar-group>p,
+.avatar-group>a>p {
+    margin-bottom: 0 !important;
+    padding-left: 10px;
+}
+
+.avatar:not(:first-child) {
+    margin-left: -1.5rem;
+}
+
+.avatar-name {
+    position: absolute;
+    bottom: calc(100% + .5rem);
+    left: 50%;
+    transform: translateX(-50%);
+    padding: .5rem .75rem;
+    border-radius: .25rem;
+    background-color: rgba(0, 0, 0, .7);
+    color: #fff;
+    font-size: .875rem;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    transition: .2s;
+}
+
+.avatar-name::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border: .5rem solid;
+    border-color: rgba(0, 0, 0, .7) transparent transparent;
+}
+
+.avatar:hover .avatar-name {
+    opacity: 1;
+    visibility: visible;
+}
+
+.avatar img {
+    width: 3rem;
+    height: 3rem;
+    display: block;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    box-shadow: 0 .25rem 1rem rgba(0, 0, 0, .1);
+}
+
+
+/* end: Avatar */
+
+.col-md-6.card.card-image.p-3.mt-3 {
+    width: 218px;
+    margin: 10px;
+}
+
+i#star {
+    padding: 0 0 16px 7px;
+}
+
+@media(max-width:767px) {
+    .btn.remove-color {
+        width: 100%;
+        max-width: 50%;
+    }
+    .btn.accept {
+        width: 100%;
+        max-width: 50%;
+    }
+}
+
+.review_font {
+    color: black;
+    font-palette: dark;
+}

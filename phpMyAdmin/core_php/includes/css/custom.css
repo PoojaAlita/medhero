@@ -1,0 +1,20 @@
+.error{color: red;}
+.work_history_span, .other_work_history_span, .education_span{
+    display: block;
+}
+.work_history_span input[type="text"], .other_work_history_span input[type="text"], .education_span input[type="text"]{
+    display: inline-block;
+}
+.work_history_span .work_start_input, .work_history_span .work_end_input, .other_work_history_span .work_end_input, .other_work_history_span .work_start_input{
+    width: 20%;
+}
+.work_history_span .work_input, .other_work_history_span .other_work_exp{
+    width: 50%;
+}
+.education_span .edu_date{width: 20%;}
+.education_span .education_info{width: 68%;}
+
+.work_history_span a.add_new_history, .work_history_span a.remove_history, .education_span .add_new_education, .education_span .remove_education {font-size: 30px;display: inline-block;vertical-align: middle;margin-left: 5px;background: #eee;padding: 10px;border-radius: 50%;line-height: 15px;}
+.work_history_span a.add_new_history:hover, .education_span .add_new_education:hover {text-decoration: none; color: #337ab7;}
+.work_history_span a.remove_history, .work_history_span a.remove_history:hover, .education_span .remove_education, .education_span .remove_education:hover{text-decoration: none;background: #ffbbbb;color: #fff;}
+

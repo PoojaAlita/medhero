@@ -1,0 +1,251 @@
+    .sec-login {
+        background: url(../images/login-bg.jpg);
+        width: 100%;
+        background-size: cover;
+        background-position: center center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        padding: 20px 0;
+    }
+    
+    .l-inner {
+        background: #fff;
+        max-width: 500px;
+        padding: 30px 30px;
+        margin: 0 auto;
+    }
+    
+    .l-inner h4 {
+        font-size: 30px;
+        font-family: poppins;
+        font-weight: 600;
+        color: #000;
+        margin-bottom: 22px;
+    }
+    
+    .frm-grp {
+        margin-bottom: 15px;
+    }
+    
+    .frm-grp input {
+        font-size: 14px;
+        font-family: "Poppins";
+        padding: 10px 12px;
+        line-height: normal;
+        color: #333;
+    }
+    
+    .custom-control.custom-checkbox {
+        padding: 0;
+        min-height: inherit;
+        position: relative;
+        display: block;
+    }
+    
+    .custom-control-input {
+        position: absolute;
+        z-index: -1;
+        opacity: 0;
+    }
+    
+    .custom-control.custom-checkbox label {
+        padding: 0px 0 0px 27px;
+        font-family: "Lato", sans-serif;
+        cursor: pointer;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 12.5px;
+        line-height: 1.2;
+        color: #808080;
+        position: relative;
+        margin-bottom: 0;
+    }
+    
+    .custom-control.custom-checkbox label:before {
+        position: absolute;
+        content: "";
+        width: 17px;
+        height: 17px;
+        border-radius: 3px;
+        background-color: #fff;
+        border: 1px solid #dddddd;
+        left: 0;
+        top: -1px;
+    }
+    
+    .custom-control.custom-checkbox label:after {
+        position: absolute;
+        content: "";
+        top: -1px;
+        left: 0px;
+        width: 17px;
+        height: 17px;
+        background-size: 65% 50%;
+        display: block;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    
+    .check-bx .custom-checkbox .custom-control-input:checked~.custom-control-label::after {
+        background-image: url(../images/check.svg);
+    }
+    
+    .check-bx .custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+        background-color: #f76b6a;
+        border-color: #f76b6a;
+    }
+    
+    a.lnkForgot {
+        color: #808080;
+        font-size: 12.5px;
+        font-weight: 400;
+        margin: 0 0 0px;
+        text-decoration: none;
+        font-family: "Poppins";
+    }
+    
+    .ac-bx {
+        margin-bottom: 15px;
+    }
+    
+    .submit-btn input {
+        width: 100%;
+        font-size: 16.66px;
+        text-transform: capitalize;
+        min-height: 42px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #569ccc;
+        box-shadow: none;
+        border: 0;
+        border-radius: 6px;
+        color: #fff;
+        font-family: "Poppins";
+        font-weight: 600;
+        transition: ease-in-out 0.5s;
+    }
+    
+    p.p-reg {
+        font-family: "Poppins";
+        font-size: 14px;
+        color: #333;
+        margin-top: 15px;
+        text-align: center;
+        margin-bottom: 0;
+    }
+    
+    p.p-reg a {
+        font-weight: bold;
+        text-decoration: none;
+        color: #569ccc;
+    }
+    
+    .logo-main {
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    
+    .submit-btn input:hover {
+        border-radius: 0;
+        -webkit-transform: translateY(-5px);
+        transform: translateY(-5px);
+    }
+    
+    .submit-btn {
+        margin-top: 25px;
+    }
+    
+    .l-inner.border.border-1 {
+        border-radius: 17px;
+    }
+    
+    .l-inner {
+        background: #fff;
+        max-width: 600px;
+        padding: 30px 30px;
+        margin: 0 auto;
+    }
+    
+    h2.display-rebrand.mt-20.pb-5 {
+        margin-left: 60px;
+        font-style: normal;
+    }
+    
+    .form-check.col.l-inner.border.border-1 {
+        max-width: 210px;
+    }
+    
+    input#doctor {
+        margin-top: -19px;
+        margin-left: 150px;
+    }
+    
+    input#hospital {
+        margin-top: -19px;
+        margin-left: 150px;
+    }
+    
+    label.form-check-label {
+        height: 67px;
+        padding: 20px;
+    }
+    
+    .up-btn-primary[disabled] {
+        --disabled-color: #9aaa97;
+        color: #9aaa97;
+        cursor: not-allowed;
+        text-decoration: none;
+        /* box-shadow: none; */
+        text-shadow: none;
+        --disabled-bg: #e4ebe4;
+        border-color: var(--disabled-bg);
+        background-color: var(--disabled-bg);
+    }
+    
+    .mt-30 .up-btn-primary[disabled]:active {
+        pointer-events: none;
+    }
+    
+    .mt-30 .width-md {
+        width: 300px!important;
+        min-width: 300px!important;
+        max-width: none;
+        padding: 7px;
+    }
+    
+    .mt-30 .up-btn-block {
+        display: block;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 0;
+        padding-right: 0;
+        border-radius: 20px;
+    }
+    
+    .mt-30 {
+        margin: 52px;
+    }
+    
+    .login-content .logo-main {
+        text-align: left;
+        margin-bottom: 25px;
+    }
+    
+    .login-content .logo-main svg {
+        height: 31px;
+    }
+    
+    h2.display-rebrand.mt-20.pb-5.sign_up {
+        margin-left: 211px;
+    }
+    
+    .error {
+        color: red;
+    }
+    /*  .l-inner.border.border-1 {
+        margin-top: 60px;
+    } */

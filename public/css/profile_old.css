@@ -1,0 +1,67 @@
+.img_box{
+    height: 272px;
+    width: 1300px;
+}
+.error{color: red;}
+/* 
+.work_history_span a.add_new_history, .work_history_span a.remove_history, .education_span .add_new_education, .education_span .remove_education {font-size: 30px;display: inline-block;vertical-align: middle;margin-left: 5px;background: #eee;padding: 11px;border-radius: 50%;line-height: 15px;}
+.work_history_span a.add_new_history:hover, .education_span .add_new_education:hover {text-decoration: none; color: #337ab7;}
+.work_history_span a.remove_history, .work_history_span a.remove_history:hover, .education_span .remove_education, .education_span .remove_education:hover{text-decoration: none;background: #ffbbbb;color: #fff;}
+
+div.education_span {display: flex;flex-wrap: wrap;margin-bottom: 10px;}
+span.education_span input.edu_start_input {width: 15%;}
+span.education_span input.edu_end_input {width: 15%;}
+a.add_new_education {width: 40px;height: 40px;display: flex;text-decoration: none;align-items: center;justify-content: center;}
+div.education_span input.education_info {width: calc(100% - 80px);}
+span.education_span b {padding: 0 8px;display: flex;align-items: center;justify-content: center;}
+a.remove_education {width: 40px;height: 40px;align-items: center;justify-content: center;text-decoration: none;text-align: center;background: #b93232 !important;}
+
+span.work_history_span {display: flex;flex-wrap: wrap;    margin-top: 5px;}
+span.work_history_span input.work_start_input {width: 15%;}
+span.work_history_span input.work_end_input {width: 15%;}
+span.work_history_span input.work_input {width: calc(70% - 80px);margin-left: 10px;}
+a.add_new_history {width: 40px;height: 40px;display: flex;text-decoration: none;align-items: center;justify-content: center;}
+span.work_history_span b {padding: 0 8px;display: flex;align-items: center;justify-content: center;}
+.experience_div .form-group {margin-bottom: 10px;}
+.experience_div .form-group label {margin-bottom: 5px;}
+a.remove_history {width: 40px;height: 40px;display: flex;flex-wrap: wrap;align-items: center;justify-content: center;    text-align: center;background-color: #b93232 !important;}
+.experience_div .form-group label[for="work_history"] {margin-bottom: 0;}
+
+@media (max-width:767px){
+    a.add_new_education {margin: 0;margin-top: 10px;background: #e3e3e3 !important;}
+span.education_span input.education_info {width: 100%;}
+span.education_span input.edu_date {width: 100%;}
+span.education_span {background: #f4f4f4;padding: 10px;border-radius: 6px;}
+
+
+span.work_history_span {margin: 0;margin-top: 10px;background: #f4f4f4 !important;padding: 10px;border-radius: 6px;}
+span.work_history_span input.work_start_input {width: 100%;}
+span.work_history_span input.work_end_input {width: 100%;}
+span.work_history_span input.work_input {width: 100%;margin-left: 0;margin-top: 10px;}
+a.add_new_history {margin: 0;margin-top: 10px;background: #e3e3e3 !important;}
+a.remove_history {margin-left: 0;margin-top: 5px;}
+
+span.other_work_history_span {margin: 0;margin-top: 10px;background: #f4f4f4 !important;padding: 10px;border-radius: 6px;}
+.other_work_history_span .work_start_input {width: 100%;}
+.other_work_history_span input.work_end_input {width: 100%;}
+.other_work_history_span .other_work_exp {width: 100%;margin-left: 0;margin-top: 10px;}
+a.add_new_history {margin: 0;margin-top: 10px;background: #e3e3e3 !important;}
+.logo svg {max-width: 200px;}
+.logout-a a {padding: 5px 14px;font-size: 13px;}
+header.header-cstm {padding: 8px 0px;}
+
+
+
+} */
+.work_history_span a.add_new_history, .work_history_span a.remove_history, .education_span .add_new_education, .education_span .remove_education {font-size: 30px;display: inline-block;vertical-align: middle;margin-left: 5px;background: #eee;padding: 11px;border-radius: 50%;line-height: 15px;}
+.work_history_span a.add_new_history:hover, .education_span .add_new_education:hover {text-decoration: none; color: #337ab7;}
+.work_history_span a.remove_history, .work_history_span a.remove_history:hover, .education_span .remove_education, .education_span .remove_education:hover{text-decoration: none;background: #ffbbbb;color: #fff;}
+div.education_span {display: flex;flex-wrap: wrap;margin-bottom: 10px;}
+div.education_span input.education_info {width: calc(100% - 80px);}
+a.add_new_education {width: 40px;height: 40px;display: flex;text-decoration: none;align-items: center;justify-content: center;}
+a.remove_education {width: 40px;height: 40px;align-items: center;justify-content: center;text-decoration: none;text-align: center;background: #b93232 !important;}
+
+
+.ui-datepicker-calendar {
+    display: none;
+    }

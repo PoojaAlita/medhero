@@ -1,0 +1,54 @@
+.col-sm-6.text-end {
+    margin-left: 67px;
+    margin-top: 25px;
+}
+
+svg.side-logo {
+    margin-top: 23px;
+    margin-left: -44px;
+}
+
+div#loader {
+    margin-left: 930px;
+    /* margin-top: 16px; */
+    margin-bottom: -159px;
+    height: 31px;
+}
+
+.pac-container.pac-logo {
+    z-index: 9999;
+}
+
+div#loader {
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 999999;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.loader-background {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999999;
+    background: rgb(0 0 0 / 38%);
+}
+
+img.imageThumb {
+    width: 109px;
+    margin: 3px;
+}
+
+svg.side-logo {
+    margin-left: -48px;
+}
+
+svg.logo-m {
+    margin-top: 20px;
+}
